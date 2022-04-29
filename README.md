@@ -12,11 +12,11 @@ Step 3
 Update the Rplay.R file with said location.
 
 Step 4
-Assert *.names file
+Assert spambase.names and spambase.data files are in the intended location. 
 
 Step 5
-Run the following command to conform the *.data to *.csv:
-cp -p spambase.data spambase.csv
+Run the following command to conform the *.data to the new file name (feel free to change as desired):
+cp -p spambase.data spambase_data_csv.txt
 
 Step 6
-Thrive
+Thrive.
